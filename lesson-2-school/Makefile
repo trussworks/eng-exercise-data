@@ -12,7 +12,7 @@ insert-student-row:
 	sqlite3 school.db "insert into students (last_name) values ('Capybara')"
 
 insert-teacher-row:
-	sqlite3 school.db "insert into teachers (last_name) values('Grapefruit')
+	sqlite3 school.db "insert into teachers (last_name) values('Grapefruit')"
 
 db:
 	sqlite3 school.db
