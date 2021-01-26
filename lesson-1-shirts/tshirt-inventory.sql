@@ -1,5 +1,7 @@
 -- SQLite schema for Truss engineering data exercise, lesson one
 
+-- SQL keywords are CAPITALIZED here for clarity, but that is optional.
+
 -- PRAGMA is a way of specifying a SQL extension specific to the DB engine (SQLite in this case)
 -- Here, we turn "on" the foreign_keys feature so that foreign keys are enforced.
 -- Note that many PRAGMAs must be set on each connection to the database, so consult the docs.
