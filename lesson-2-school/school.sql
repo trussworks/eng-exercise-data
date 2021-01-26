@@ -28,6 +28,8 @@ create table students (
   FOREIGN KEY(teacher_id) REFERENCES teachers(id)
 );
 
+-- Note that UPPER/lower case does not matter for SQL keywords
 create index students_last_name_idx on students(last_name);
+CREATE INDEX students_teacher_id_idx on students(teacher_id);
 
 COMMIT;
