@@ -2,13 +2,13 @@ load-schema:
 	sqlite3 school.db < school.sql
 
 load-csv:
-	tail -n +2 students.csv | sqlite3 school.db '.mode csv' '.import /dev/stdin students'
+	tail -n +2 teachers.csv | sqlite3 school.db '.mode csv' '.import /dev/stdin teachers'
 
 delete-db:
 	rm -f school.db
 
 insert-row:
-	sqlite3 school.db "insert into students (last_name) values ('Capybara')"
+	sqlite3 school.db "insert into teachers (last_name) values ('Cantaloupe')"
 
 db:
 	sqlite3 school.db

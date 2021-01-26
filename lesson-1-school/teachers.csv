@@ -1,0 +1,7 @@
+id,last_name,first_name,subject,classroom,created_at,updated_at
+1,Apple,Alex,Pre-K,10a,2021-01-22T17:05:00Z,2021-01-22T17:05:00Z
+2,Banana,Billie,Kindergarten,11,2021-01-22T17:05:00Z,2021-01-22T17:05:00Z
+3,Cherry,Corey,First Grade,12,2021-01-22T17:05:00Z,2021-01-22T17:05:00Z
+4,Date,Dallas,Pre-K,10b,2021-01-22T17:05:00Z,2021-01-22T17:05:00Z
+5,Elderberry,Emory,Kindergarten,14,2021-01-22T17:05:00Z,2021-01-22T17:05:00Z
+6,Fig,Flynn,First Grade,15,2021-01-22T17:05:00Z,2021-01-22T17:05:00Z
