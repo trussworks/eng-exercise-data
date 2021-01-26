@@ -1,4 +1,4 @@
--- SQLite schema for Truss engineering data exercise, lesson one
+-- SQLite schema for Truss engineering data exercise, lesson two
 
 PRAGMA foreign_keys = ON;
 
