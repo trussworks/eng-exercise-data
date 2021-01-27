@@ -1,4 +1,4 @@
-# Engineering Exercise Data - Lesson One
+# Engineering Exercise Data - Lesson Two
 
 ```sh
 make fresh
